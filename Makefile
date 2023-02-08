@@ -6,7 +6,7 @@
 #    By: madavid <madavid@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/20 21:49:59 by madavid           #+#    #+#              #
-#    Updated: 2023/02/08 17:24:35 by madavid          ###   ########.fr        #
+#    Updated: 2023/02/08 17:43:08 by madavid          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -58,7 +58,7 @@ SRCS = ft_bzero.c \
 	ft_lstclear.c \
 	ft_lstiter.c \
 	ft_lstmap.c \
-	get_next_line.c \
+	ft_get_next_line.c \
 	ft_printf.c \
     ft_printf_utils.c \
 
