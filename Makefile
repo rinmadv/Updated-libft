@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: marine <marine@student.42.fr>              +#+  +:+       +#+         #
+#    By: madavid <madavid@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/20 21:49:59 by madavid           #+#    #+#              #
-#    Updated: 2023/02/08 02:16:28 by marine           ###   ########.fr        #
+#    Updated: 2023/02/08 17:24:35 by madavid          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -59,6 +59,8 @@ SRCS = ft_bzero.c \
 	ft_lstiter.c \
 	ft_lstmap.c \
 	get_next_line.c \
+	ft_printf.c \
+    ft_printf_utils.c \
 
 OBJS = $(SRCS:.c=.o) 
 

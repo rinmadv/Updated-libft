@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marine <marine@student.42.fr>              +#+  +:+       +#+        */
+/*   By: madavid <madavid@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/24 01:57:16 by madavid           #+#    #+#             */
-/*   Updated: 2023/02/08 02:18:44 by marine           ###   ########.fr       */
+/*   Updated: 2023/02/08 17:27:59 by madavid          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,5 +80,12 @@ void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 char	*get_next_line(int fd);
+int		ft_printf(const char *str, ...);
+void	ft_args_pf(char c, va_list ap, int *n);
+void	ft_putchar_pf(char c, int *n);
+void	ft_putstr_pf(char *str, int *n);
+void	ft_putnbr_pf(long long int nb, int *n, int is_unsigned);
+void	ft_puthexa_pf(unsigned long long int nb, int *n, int c);
+void	ft_putptr_pf(unsigned long int ptr, int *n);
 
 #endif
